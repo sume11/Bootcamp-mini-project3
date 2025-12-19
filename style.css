@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+    flex-direction: column;   
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+#toggle-text {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#toggle-btn {
+    padding: 8px 16px;
+    font-size:1rem;
+    cursor: pointer;
+}
